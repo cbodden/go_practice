@@ -18,7 +18,8 @@ func main() {
     fmt.Println(time.Now())
         // Wed Dec 21 09:52:14 +0100 RST 2011
     // calculating times:
-    week = 60 * 60 * 24 * 7 * 1e9    // must be nanosec
+    week = 60 * 60 * 24 * 7 * 1e9
+        // must be nanosec
     week_from_now := t.Add(week)
     fmt.Println(week_from_now)
         // Wed Dec 28 08:52:14 +0000 UTC 2011
