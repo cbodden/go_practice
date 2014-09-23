@@ -1,6 +1,9 @@
 package rand
 // #include <stdlib.h>
-import "C"
+import (
+	"C"
+)
+
 func Random() int {
     return int(C.random())
 }
